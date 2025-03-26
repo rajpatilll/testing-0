@@ -1,0 +1,25 @@
+.progress-bar-container {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.progress-bar {
+  width: -webkit-fill-available;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: azure; 
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); 
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(to right, gold, #c85, gold) !important;
+  box-shadow: 0 0 10px 0px orange !important;
+  transition: width 0.5s ease-in-out;
+}
+
